@@ -1,0 +1,8 @@
+apiVersion: appstudio.redhat.com/v1alpha1
+kind: Release
+metadata:
+  generateName: fbc-10-21-1
+  namespace: windows-machine-conf-tenant
+spec:
+  releasePlan: windows-machine-config-operator-fbc-prod-release-4-21
+  snapshot: windows-machine-config-operator-fbc-release-20260304-033934-000

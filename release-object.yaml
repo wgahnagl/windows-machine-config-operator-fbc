@@ -1,0 +1,18 @@
+apiVersion: appstudio.redhat.com/v1alpha1
+kind: Release
+metadata:
+  creationTimestamp: null
+  generateName: windows-machine-config-operator-10-21-prod-
+spec:
+  data:
+    releaseNotes:
+      cves: []
+      issues:
+        fixed:
+          - id: OCPBUGS-64719
+            source: issues.redhat.com
+          - id: OCPBUGS-74380
+            source: issues.redhat.com
+      type: RHBA
+  releasePlan: windows-machine-config-operator-10-21-prod
+  snapshot: windows-machine-config-operator-release-4-2-20260218-144610-000
